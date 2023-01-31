@@ -118,7 +118,7 @@ a {
       margin: 0;
       border: none !important; }
       .heading p #more {
-        display: inline; }
+        display: inline !important; }
       .heading p #dots, .heading p #myBtn {
         display: none; }
   a {
