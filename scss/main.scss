@@ -91,11 +91,6 @@ a {
     color: var(--font-color);
     text-decoration: underline;
     font-weight: 700;
-    cursor: pointer;
-
-    &:hover {
-        text-decoration: none; 
-    }
 }
 
 .cta {
@@ -115,5 +110,11 @@ a {
     }
 }
 
+@media (hover: hover) {
+    a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    }
+}
 
 @import 'media';
