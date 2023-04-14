@@ -68,10 +68,7 @@ a {
   font-size: 1.2rem;
   color: var(--font-color);
   text-decoration: underline;
-  font-weight: 700;
-  cursor: pointer; }
-  a:hover {
-    text-decoration: none; }
+  font-weight: 700; }
 
 .cta {
   display: flex;
@@ -85,7 +82,12 @@ a {
   .cta-a {
     margin-bottom: 0.5rem; }
 
-@media screen and (min-width: 721px) {
+@media (hover: hover) {
+  a:hover {
+    text-decoration: none;
+    cursor: pointer; } }
+
+@media screen and (min-width: 720px) {
   .container {
     height: 26rem;
     flex-direction: row-reverse;
